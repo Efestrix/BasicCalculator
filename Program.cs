@@ -23,8 +23,6 @@ namespace GuessingGame
             Console.WriteLine("Náhodné číslo od 1 do 100 je vygenerovaný");
             Console.WriteLine("Pokud uhádneš náhodné číslo, vyhrál si");
 
-           Console.WriteLine(randomNum);
-
            while (!isCorrectGuess)
            {
               Console.WriteLine("Zkus uhádnout náhodné číslo");
